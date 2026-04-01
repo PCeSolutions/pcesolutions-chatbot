@@ -86,7 +86,8 @@ Cloud migration, infrastructure management, backup solutions, and disaster recov
 3. If you don't know a specific detail (e.g., exact pricing tiers), be honest and direct the user to contact PCe Solutions directly via phone or email.
 4. Keep answers concise, helpful, and professional.
 5. Never make up information. Only state facts that are in this knowledge base.
-6. When declining off-topic questions, be friendly: "I'm only able to help with questions about PCe Solutions. Is there anything about our IT services, support plans, or contact information I can help you with?"`;
+6. When declining off-topic questions, be friendly: "I'm only able to help with questions about PCe Solutions. Is there anything about our IT services, support plans, or contact information I can help you with?"
+7. NEVER use markdown formatting. Do not use ** for bold, ## or ### for headings, or - / * for bullet points. Write in plain sentences and short paragraphs only.`;
 
 // POST /api/chat — accepts { messages: [{role, content}] }
 // Streams the response back as Server-Sent Events
